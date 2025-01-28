@@ -1,0 +1,9 @@
+HTML, Hyper Text Markup Language ifadesinden oluşturulmuş bir İngilizce kısaltmadır ve Türkçe'ye "Hiper Metin İşaretleme Dili" şeklinde çevrilebilir. Bir işaretleme dilinin temel işlevi, bir belge içindeki metnin (text) yapısını, biçimini ve genel görünümünü tanımlayacak kuralları içermesi ve bunun uygulanmasına olanak vermesidir.
+
+İşaretleme dilinin kuralları belgeye yüklendikten sonra doğal olarak belge, bu kuralları okuyup nasıl uygulayacağını bilen bir bilgisayar programı tarafından işlenmelidir. Burada oluşturulan HTML içerikleri tarayıcılar tarafından anlamlaştırılarak, gördüğümüz web sitelerinin temelini oluştururlar.
+
+HTML öğrenebilmeniz için herhangi bir metin editörünü kullanmanız yeterlidir. Bu noktada size Sublime Text, Brackets ve Notepad++ gibi bazı başarılı metin editörlerini önerebiliriz. Bu editörler, HTML kodlarını yazarak bir web sitesi inşa etmek için kullanılmaktadır. Bunun dışında, görsel olarak da bir web sitesi oluşturmak mümkündür. Bunun için Microsoft Expression Web, Adobe Dreamweaver ve BlueGriffon gibi farklı araçlar kullanılabilir.
+
+Bu tür uygulamalar, görsel olarak yapmış olduğunuz işlemleri, arkaplanda HTML koduna dönüştürmektedir. Dilerseniz, Web Programlama kursunu tamamladıktan sonra, WYSIWYG uygulamaları kullanarak web sitenizi geliştirebilirsiniz. Ancak; HTML kodlamayı iyi bir şekilde öğrenmek için ilk etapta bu uygulamaları kullanmamanızı, HTML kod vurgulama özelliğine sahip metin editörleri kullanmanızı tavsiye ederiz.
+
+HTML dosyalarının çalıştırılması için oluşturduğunuz dosyaların sonuna .html uzantısı eklemeniz ve bir internet tarayıcısı üzerinde açmanız yeterli olacaktır. Böylelikle yazmış olduğunuz HTML kodları ile oluşturduğunuz web sitesini görüntüleyebilirsiniz.
