@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formlar</title>
+</head>
+
+<body>
+    <p>HTML formları kullanıcıdan veri almak için kullanılır.</p>
+    <p>Form etiketi bir form tanımlar ve burada kullanılıcak diğer etiketlerle birlikte kullanıcıdan veri alınmasına
+        yardımcı olur. </p>
+
+    <hr>
+
+    <h4>Input Etiketi</h4>
+    <p>İnput etiketi en önemli form elemanıdır.</p>
+    <ul>
+        <li>Metin Alanı (Text Field)</li>
+        <p>Kısa metin girişlerini yüklemek için kullanılabilecek olan alanlardır. İsimler, arama anahtarları adresleri
+            girmek için kullanılır.</p>
+
+        <li>Seçme Listeleri (Select List)</li>
+        <p>Seçme listesi, kullanıcının içinden bir ya da daha fazla elemanı seçebileceği veri listeleridir. Uzun fakat
+            sonlu bir seçenekler listesi sunmak amacıyla kullanılabilir. Örneğin bir ülkeler listesinden ülke seçmek ya
+            da bir yazıcılar listesinden yazıcı seçmek gibi eylemler bu elemanın kullanılmasını gerektirir.</p>
+
+        <li>Denetim Kutusu (Checkbox)</li>
+        <p>Denetim kutusu, web sayfasını ziyaret eden İnternet kullanıcılarınnın bir veriler listesinden,
+        <ul>
+            <li>bir tek veri</li>
+            <li>birden çok veri seçmek ya da </li>
+            <li>hiçbir veri seçmememek olanağını sağlayan kontrol nesnesidir.</li>
+        </ul>
+        </p>
+
+        <li>Radyo Düğmesi (Radio Button)</li>
+        <p>Kullanıcılara tek bir seçim yapma olanağı veren kontrol nesnesidir.</p>
+
+        <li>Metin Bölgesi(Text Area)</li>
+        <p>Normalden uzun olan metinler için kullanılabilecek olan kontrol nesnesidir. Serbest biçimli cevaplar için
+            kullanılabilir.</p>
+
+        <li>Submit ve Reset Düğmeleri</li>
+        <p>Submit (Gönder) düğmesiyle form üzerine girilen bilgi işlenmesi için URL'i verilen sunucu sayfasına
+            gönderilir. Reset (Sıfırla ya da Temizle) düğmesiyle form içindeki bilgi silinerek başlangıç konumuna
+            getirilir.</p>
+    </ul>
+
+    <hr>
+
+    <h4>Bir Formun Genel Yapısı</h4>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;title&gt;SALZBURG&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+
+        &lt;div align="center"&gt;
+        &lt;font face="courier" size="6" color="red"&gt;
+        BENZERSİZ ŞEHİR SALZBURG TURLARI İÇİN&lt;br&gt;
+        BİZİ ARAYINIZ
+        &lt;/font&gt;
+        &lt;/div&gt;
+        &lt;hr width="90%" size="5" noshade&gt;
+        &lt;form method="post" action="form_gonder.php"&gt;
+        &lt;input type="text" name="adiniz"&gt;ADINIZ&lt;br&gt;
+        &lt;input type="text" name="soyadiniz"&gt;SOYADINIZ&lt;br&gt;
+        &lt;input type="text" name="adresiniz"&gt;ADRESİNİZ&lt;br&gt;
+        &lt;input type="text" name="tel-no"&gt;TEL.NO&lt;br&gt;
+        &lt;input type="submit" value="GÖNDER" align="center"&gt;
+        &lt;input type="reset" value="SİL" align="center"&gt;
+        &lt;/form&gt;
+        &lt;hr width="90%" size="5" noshade&gt;
+        &lt;div align="center"&gt;
+        &lt;address align="left"&gt;
+        &lt;font face="Arial"&gt;
+        &lt;br&gt;ÖRNEK TOUR&lt;br&gt;
+        &lt;a href="mailto:ornek@ornektour.com.tr"&gt;ornek@ornektour.com.tr&lt;/a&gt;
+        &lt;br&gt;
+        Mevcudiyet Cad.84-80767-Şişli&lt;br&gt;
+        İSTANBUL&lt;br&gt;
+        &lt;/font&gt;
+        &lt;/address&gt;
+        &lt;/div&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+
+    <a href="form_example.html">Örnek İçin Tıklayin.</a>
+</body>
+
+</html>

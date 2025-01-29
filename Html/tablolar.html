@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+
+<body>
+    <h4>Tablo Etiketi</h4>
+    <p>tablo etiketi: &lt;table&gt; &lt;/table&gt; HTML kodu içinde bir tablo tanımlar. Şayet border parametresi
+        tanımlanmışsa tarayıcı tabloyu çevre sınırları ile görüntüler.</p>
+    <br>
+    <p>caption etiketi: &lt;caption &gt; &lt;/caption&gt; tablonun başlığı için bir ifade tanımlar. Tabl başlığının
+        öntanımlı konumu, tablonun üstünde ve ortalanmış durumdadır.</p>
+    <br>
+    <p>tr etiketi: &lt;tr&gt; &lt;/tr&gt; Tablo içinde bir tablo satırını tanımlar</p>
+    <br>
+    <p>th etiketi: &lt;th&gt; &lt;/th&gt; bir tablo başlık hücresi tanımlar. Öntanımlı olarak bu hücredeki metin
+        ortalanmış ve bold renklidir.</p>
+    <br>
+    <p>td etiketi: &lt;td&gt; &lt;/td&gt; bir tablo hücresi tanımlar. Öntanımlı olarak bu hücre içindeki metin sola
+        yanaşık ve düşeyde ortalanmış vaziyettedir.</p>
+
+    <hr>
+
+    <h4>Tablo Özellikleri</h4>
+    <p>Align parametresi: Bir hücre verisinin yatay konumunu belirler. Left, Rigth, Center parametrelerini kullanarak
+        belirtilir.</p>
+    <br>
+    <p>Valign parametresi: Bir hücre verisinin düşey konumunu belirler. Top, Middle, Bottom parametrelerini kullanrak
+        belirtilir.</p>
+    <br>
+    <p>Colspan parametresi: Bir hücrenin kapsadığı sütun sayısıdır. Belirttiğiniz kadar sütun oluşmasını sağlar.</p>
+    <br>
+    <p>Rowspan parametresi: Hücrenin kapsadığı satır sayısıdır. Belirttiğiniz kadar satır oluşmasını sağlar.</p>
+    <br>
+    <p>Nowrap parametresi: Otomatik metin akışını iptal eder.</p>
+
+    <hr>
+
+    <h4>Tablo Uygulaması</h4>
+    <table border="2">
+        <!--Tablo tanımı başlangıcı-->
+        <caption> Ülkeler ve Nüfusları</caption>
+
+        <!--Başlık tanımı-->
+        <tr>
+            <!--Başlık satırı tanımı-->
+            <th>Ülke Adı</th>
+            <th>Nüfusu</th>
+        </tr>
+
+        <!--İlk satır tanımı-->
+        <tr>
+            <td>Avusturya</td>
+            <td>8,000,000</td>
+        </tr>
+
+        <!--İkinci satır tanımı-->
+        <tr>
+            <td>Almanya</td>
+            <td>80,000,000</td>
+        </tr>
+
+        <!--Son satır tanımı-->
+        <tr>
+            <td>Türkiye</td>
+            <td>73,000,000</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h4>Tek hücreli tablo</h4>
+    <table border="2" cellspacing="0" cellpading="5">
+        <tr>
+            <td>Tek hücreli tablo :D</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h4>Renkli tablo yapalım</h4>
+    <table border="2" cellspacing="5" cellpading="5" align="left" bgcolor="ffcbf0">
+        <tr>
+            <td>Padova</td>
+        </tr>
+    </table>
+    <p>Venedik'in bu kadar yakınında olması belki şanssızlığıdır. <br>
+        Gizemli bir Kuzey İtalya şehridir.<br>
+        Avrupa'nın en eski tıp fakültesi buradadır.</p>
+</body>
+
+</html>

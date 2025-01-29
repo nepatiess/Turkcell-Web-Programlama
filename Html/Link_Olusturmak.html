@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link Oluşturmak</title>
+</head>
+<body>
+    <p>HTML'in önemli özelliklerinden biri, bir metin parçası ya da resim üzerinden başka bir belgeye bağlantı kurabilmesidir. Bu bağlantı, link adı verilen yapılar sayesinde gerçekleştirilmektedir. Bir resim ya da metnin rengi değiştirilerek ya da metin alt çizgili hale getirilerek bu resim ya da metnin bir hipermetin linki (hypertext link) ya da sadece link olduğu belirtilir.</p>
+
+    <p>Bir link oluşturmak için aşağıdaki adımlar izlenmelidir:</p>
+    <ol>
+        <li>a sembolü ile başlanır.</li>
+        <li>href="Dosya adı" ifadesi yerleştirilir. Burada dosyaAdı parametresi, oluşturulan link yardımıyla çağrılacak olan dosyanın adıdır.</li>
+        <li>> sembolünü yerleştiriniz.</li>
+        <li>Linki oluşturacak metni giriniz.</li>
+        <li>/a ifadesi ile ifadeyi tamamlayınız.</li>
+    </ol>
+
+    <a href="http://gelecegiyazanlar.turkcell.com.tr">Anasayfa</a>
+    
+    <hr>
+
+    <h4>Url yapısı</h4>
+    <p>URL, bir adres bilgisidir. Web tarayıcıya işaret edilen dosyanın nerede bulunduğunu gösterir.URL'ler, dosyaların Web ya da yerel sabit diskiniz üzerindeki yerini işaret eder.</p>
+    
+    <p>Bir URL'nin genel yapısı aşağıdaki üç kısımdan oluşur</p>
+
+    <ul>
+        <li>Erişilecek olan kaynağın tipi(Web, FTP vb.)</li>
+        <li>Sunucunun adresi</li>
+        <li>Dosyanın yeri</li>
+    </ul>
+
+    <p>Bir URL'nşn yazılış biçimi aşağıdaki gibidir.</p>
+    <p>KaynakTipi://host.saha [:port]/yol/DosyaAdı</p>
+
+    <p>KaynakTipi parametresi aşağıdakilerden biri olabilir:</p>
+    <ul>
+        <li>file: Yerel sisteminizdeki bir dosya adıdır. Yerel erişim söz konusudur.</li>
+        <li>ftp: Erişilecek kaynak bir FTP sunucusundaki dosyadır.</li>
+        <li>http: Erişilecek kaynak World Wide Web üzerindeki bir sunucuda bulunan dosyadır.</li>
+    </ul>
+
+    <hr>
+
+    <h4>Target özelliği</h4>
+    <p>Target özelliği sayesinde, bağlanan web sitesinin nerede açılacağını belirleyebilirsiniz. Örneğin adresin yeni bir sayfada açılmasını sağlamak için aşağıdaki HTML kodunu girmek gerekir.</p>
+
+    <a href="http://gelecegiyazanlar.turkcell.com.tr" target="_blank">Turkcell Geleceği Yazanlar</a>
+
+    <pre>
+        ÖZELLİK             TANIM
+        _blank              sayfayı yeni bir pencere ya da sekmede açar.
+        _self               sayfayı aynı çerçevede açar. (öntanımlı olan özelliktir.)
+        _parent             sayfayı bir üst çerçevede açar.
+        _top                sayfayı en üst çerçevede açar.
+    </pre>
+</body>
+</html>
